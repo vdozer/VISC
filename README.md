@@ -1,6 +1,6 @@
 # Valentin's i3 config
 
-Just a basic config that i use. The only dependency is feh (thats optional too)
+Just a basic config that i use. The only dependency is feh. The recomended wallpaper is **wallpaper.jpg** (Yes, thats one of the default ElementaryOS wallpapers.)
 
 ### To install feh on Debian based distros (Ubuntu etc.)
 ```
