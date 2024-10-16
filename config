@@ -180,31 +180,31 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # class                 border  bground text    indicator child_border
-client.focused          #83CAFA #51A2DA #FFFFFF #83CAFA   #51A2DA
+client.focused          #791A20 #AC242C #FFFFFF #791A20   #791A20
 client.focused_inactive #8C8C8C #4C4C4C #FFFFFF #4C4C4C   #8C8C8C
 client.unfocused        #4C4C4C #222222 #888888 #292D2E   #222222
-client.urgent           #EC69A0 #DB3279 #FFFFFF #DB3279   #DB3279
+client.urgent           #9C7114 #CC9316 #FFFFFF #DB3279   #9C7114
 client.placeholder      #000000 #0C0C0C #FFFFFF #000000   #0C0C0C
 
 client.background       #FFFFFF
 
-gaps inner 8
-gaps outer 8
+gaps inner 4
+gaps outer 4
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
   position top
   colors {
-    background #282828          
-    statusline #FFFFFF          
-    separator  #4C4C4C          
+    background #282828
+    statusline #FFFFFF
+    separator  #4C4C4C
 
-    focused_workspace  #4A90E2 #2C3E50 #FFFFFF  
-    active_workspace   #34495E #2C3E50 #FFFFFF  
-    inactive_workspace #7F8C8D #BDC3C7 #888888  
-    urgent_workspace   #E74C3C #C0392B #FFFFFF  
-    binding_mode       #9B59B6 #8E44AD #FFFFFF  
+    focused_workspace  #4A90E2 #2C3E50 #FFFFFF
+    active_workspace   #34495E #2C3E50 #FFFFFF
+    inactive_workspace #7F8C8D #BDC3C7 #888888
+    urgent_workspace   #E74C3C #C0392B #FFFFFF
+    binding_mode       #9B59B6 #8E44AD #FFFFFF
   }
   status_command i3status
 }
