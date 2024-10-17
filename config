@@ -200,7 +200,7 @@ bar {
     statusline #FFFFFF
     separator  #4C4C4C
 
-    focused_workspace  #4A90E2 #2C3E50 #FFFFFF
+    focused_workspace  #791A20 #AC242C #FFFFFF
     active_workspace   #34495E #2C3E50 #FFFFFF
     inactive_workspace #7F8C8D #BDC3C7 #888888
     urgent_workspace   #E74C3C #C0392B #FFFFFF
