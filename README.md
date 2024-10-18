@@ -1,24 +1,33 @@
+
 # Valentin's i3 config
 
-Just a basic config that i use. The only dependency is feh. The recomended wallpaper is **wallpaper.jpg** (Yes, thats one of the default ElementaryOS wallpapers.)
+Just a basic config that I use. The only dependencies are feh, flameshot  and alacritty. The recommended wallpaper is **wallpaper.jpg** (Yes, that's one of the default ElementaryOS wallpapers). To take a screenshot press Mod+Shift+Print, that will take a screenshot of your entire screen and paste it to the Pictures directory. Remember to remove the # and change directory at the end of the config file for feh to work.
 
-### To install feh on Debian based distros (Ubuntu etc.)
+### To Install feh flameshot and alacritty
+
+#### On Debian-based distros (Ubuntu, etc.):
 ```
-sudo apt install feh
+sudo apt install feh flameshot alacritty
 ```
-### Fedora:
+
+#### On Fedora:
 ```
-sudo dnf install feh
+sudo dnf install feh flameshot alacritty
 ```
-### Arch Linux:
+
+#### On Arch Linux:
 ```
-sudo pacman -S feh
+sudo pacman -S feh flameshot alacritty
 ```
-### OpenSUSE:
+
+#### On OpenSUSE:
 ```
-sudo zypper install feh
+sudo zypper install feh flameshot alacritty
 ```
-### Gentoo:
+
+#### On Gentoo:
 ```
-sudo emerge feh
+sudo emerge feh flameshot alacritty
 ```
+
+If you have any questions (or recommendations) mail me at **valentin.ozer@proton.me**.
