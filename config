@@ -215,5 +215,5 @@ bar {
   status_command i3status
 }
 
-
+exec --no-startup-id volumeicon
 #exec --no-startup-id feh --bg-scale /example/wall/paper/location.png
