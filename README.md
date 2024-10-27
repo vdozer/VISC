@@ -4,7 +4,7 @@ Just a basic config that I use. To take a screenshot press Mod+Shift+Print, that
 
 ![Screenshot](screenshot.png)
 
-### To Install feh flameshot and alacritty picom
+### To Install feh, flameshot, picom and alacritty
 
 #### On Debian-based distros (Ubuntu, etc.):
 ```
