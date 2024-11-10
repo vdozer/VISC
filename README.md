@@ -31,4 +31,4 @@ sudo zypper install feh flameshot alacritty picom
 sudo emerge feh flameshot alacritty picom
 ```
 
-If you have any questions (or recommendations) mail me at **valentin.ozer@proton.me**.
+If you have any questions (or recommendations) mail me at **valentin.ozer@aol.com**.
