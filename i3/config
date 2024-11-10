@@ -111,7 +111,7 @@ bindsym $mod+a focus parent
 # take a full-screen screenshot and save to default directory
 bindsym $mod+Shift+Print exec --no-startup-id flameshot full -p ~/Pictures
 
-#Start Firefoc
+#Start Firefox
 bindsym $mod+Shift+w exec firefox
 
 # Define names for default workspaces for which we configure key bindings later on.
