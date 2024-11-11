@@ -6,7 +6,7 @@
 
   
 
-Just my dotfiles. ***Remember to remove the # and change directory at the end of the config file for the wallpaper to work.***
+Just my dotfiles.
 
   
 
