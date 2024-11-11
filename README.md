@@ -36,7 +36,7 @@ Alternatively you could use the arrow keys.
 
   
 
-### To Install feh, flameshot, picom and alacritty
+### To Install feh, flameshot, picom, Vim and alacritty
 
   
 
@@ -44,7 +44,7 @@ Alternatively you could use the arrow keys.
 
 ```
 
-sudo apt install feh flameshot alacritty picom
+sudo apt install feh flameshot alacritty picom vim
 
 ```
 
@@ -54,7 +54,7 @@ sudo apt install feh flameshot alacritty picom
 
 ```
 
-sudo dnf install feh flameshot alacritty picom
+sudo dnf install feh flameshot alacritty picom vim
 
 ```
 
@@ -64,7 +64,7 @@ sudo dnf install feh flameshot alacritty picom
 
 ```
 
-sudo pacman -S feh flameshot alacritty picom
+sudo pacman -S feh flameshot alacritty picom vim
 
 ```
 
@@ -74,7 +74,7 @@ sudo pacman -S feh flameshot alacritty picom
 
 ```
 
-sudo zypper install feh flameshot alacritty picom
+sudo zypper install feh flameshot alacritty picom vim
 
 ```
 
@@ -84,7 +84,7 @@ sudo zypper install feh flameshot alacritty picom
 
 ```
 
-sudo emerge feh flameshot alacritty picom
+sudo emerge feh flameshot alacritty picom vim
 
 ```
 
