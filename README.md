@@ -1,6 +1,4 @@
-# VISC
-
-<img src="visc.png" alt="logo" width="100px" height="100px"/>
+<img src="visc.png" alt="logo" width="150px" height="150px"/>
 
 **Valentin's I3 Shell Script** made for beginners and for people who don't want to spend the rest of eternity configuring their system.
 
