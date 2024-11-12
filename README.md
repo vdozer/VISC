@@ -15,7 +15,7 @@ curl -LO https://vozer.xyz/visc/visc.sh
 To run it:
 
 ```bash
-./visc.sh
+sh visc.sh
 ```
 
 ![Screenshot](screenshot.png)
