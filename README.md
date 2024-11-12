@@ -9,7 +9,7 @@
 First, download the shell script (only about **2.6 KB**). To download it:
 
 ```bash
-curl https://vozer.xyz/visc/visc.sh
+curl -LO https://vozer.xyz/visc/visc.sh
 ```
 
 To run it:
