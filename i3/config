@@ -109,7 +109,7 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 # take a full-screen screenshot and save to default directory
-bindsym $mod+Shift+Print exec --no-startup-id flameshot full -p ~/Pictures
+bindsym $mod+Shift+p exec --no-startup-id flameshot full -p ~/Pictures
 
 #Start Firefox
 bindsym $mod+Shift+w exec firefox
