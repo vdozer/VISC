@@ -22,3 +22,5 @@ sh visc.sh
 
 
 If you have any questions (or recommendations) mail me at **valentin.ozer@aol.com**.
+
+<sup><sub>Also the name isn't VISS  that sounds to similar to piss.</sub></sup>
