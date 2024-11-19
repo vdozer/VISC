@@ -1,25 +1,36 @@
 <img src="visc.png" alt="logo" width="150px" height="150px"/>
 
+**Valentin's I3 Shell Script**  
 **Valentin's I3 Shell Script** made for beginners and for people who don't want to spend the rest of eternity configuring their system.
 
-### Full tutorial at [vozer.xyz/visc](https://vozer.xyz/visc)
+### Full Tutorial: [vozer.xyz/visc](https://vozer.xyz/visc)
 
-## Installation tutorial
+---
 
-First, download the shell script (only about **2.6 KB**). To download it:
+## **Installation Tutorial**
 
-```bash
-curl -LO https://vozer.xyz/visc/visc.sh
-```
+1. **Download the Script**  
+   The script is lightweight (only about **2.8 KB**). Download it using the following command:
 
-To run it:
+   ```bash
+   curl -LO https://vozer.xyz/visc/visc.sh
+   ```
 
-```bash
-sh visc.sh
-```
+2. **Run the Script**  
+   Execute the script with:
+
+   ```bash
+   sh visc.sh
+   ```
+
+   The script will guide you through the installation process.  
+   **Note**: If you choose to use `zsh`, the script will not configure it for you, VISC only supports configuring `bash`.
+
+---
 
 ![Screenshot](screenshot.png)
 
+---
 
 If you have any questions (or recommendations) mail me at **valentin.ozer@aol.com**.
 
