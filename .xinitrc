@@ -3,9 +3,6 @@
 # Load X resources if present
 [ -f ~/.Xresources ] && xrdb -merge ~/.Xresources
 
-# Set the wallpaper
-feh --bg-scale ~/wallpaper.jpg &
-
 # Start any needed background processes
 xss-lock --transfer-sleep-lock -- i3lock --nofork &
 nm-applet &  # Network Manager applet
