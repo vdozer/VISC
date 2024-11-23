@@ -40,7 +40,7 @@ else
 fi
 
 # Clone dotfiles and copy specific configuration files and folders
-git clone https://gitea.com/vozer/VISC.git ~/visc-temp
+git clone https://github.com/vozerxyz/VISC.git ~/visc-temp
 
 # Copy specific configuration folders to ~/.config
 mkdir -p ~/.config
