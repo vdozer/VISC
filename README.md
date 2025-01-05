@@ -2,6 +2,7 @@
 
 **Valentin's I3 Shell Script**  
 **Valentin's I3 Shell Script** made for beginners and for people who don't want to spend the rest of eternity configuring their system.
+If the website is down just clone this repository and delete all the files exept `visc.sh`.
 
 ### Full Tutorial: [vozer.xyz/visc](https://vozer.xyz/visc)
 
