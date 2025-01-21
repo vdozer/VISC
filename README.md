@@ -2,7 +2,7 @@
 
 **Valentin's I3 Shell Script**  
 **Valentin's I3 Shell Script** made for beginners and for people who don't want to spend the rest of eternity configuring their system.
-If the website is down just clone this repository and delete all the files exept `visc.sh`.
+If the website is down just download `visc.sh`.
 
 ### Full Tutorial: [vozer.xyz/visc](https://vozer.xyz/visc)
 
@@ -11,7 +11,7 @@ If the website is down just clone this repository and delete all the files exept
 ## **Installation Tutorial**
 
 1. **Download the Script**  
-   The script is lightweight (only about **2.8 KB**). Download it using the following command:
+   The script is lightweight (only about **3.3 KB**). Download it using the following command:
 
    ```bash
    curl -LO https://vozer.xyz/visc/visc.sh
