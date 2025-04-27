@@ -42,4 +42,4 @@
 
 ---
 
-If you have any questions (or recommendations) mail me at **vdozer [at] tutamail [dot] com**.
+If you have any questions (or recommendations) mail me at **valentin [at] vdozer [dot] xyz**.
