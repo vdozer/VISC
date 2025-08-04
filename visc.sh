@@ -22,18 +22,6 @@ elif command -v apt &>/dev/null; then
     echo -e "\e[1;31mDetected Debian/Debian-based.\e[0m"
     sudo apt update && sudo apt upgrade -y
     sudo apt install -y i3 i3status dex xss-lock i3lock network-manager network-manager-gnome pulseaudio-utils alacritty dmenu flameshot thunar picom feh fonts-dejavu-core
-elif command -v dnf &>/dev/null; then
-    echo -e "\e[1;36mDetected Fedora.\e[0m"
-    sudo dnf upgrade -y
-    sudo dnf install -y i3 i3status dex xss-lock i3lock NetworkManager NetworkManager-plasma pulseaudio-utils alacritty dmenu flameshot thunar picom feh dejavu-sans-mono-fonts
-elif command -v zypper &>/dev/null; then
-    echo -e "\e[1;32mDetected OpenSUSE.\e[0m"
-    sudo zypper refresh
-    sudo zypper install -y i3 i3status dex xss-lock i3lock NetworkManager NetworkManager-pantheon pulseaudio-utils alacritty dmenu flameshot thunar picom feh fonts-dejavu
-elif command -v emerge &>/dev/null; then
-    echo -e "\e[1;35mDetected Gentoo.\e[0m"
-    sudo emerge --sync
-    sudo emerge -v x11-wm/i3 x11-misc/i3status x11-misc/dex x11-misc/xss-lock x11-misc/i3lock net-misc/networkmanager media-sound/pulseaudio app-emulation/alacritty app-misc/dmenu media-gfx/flameshot xfce-extra/thunar x11-misc/picom media-gfx/feh media-fonts/dejavu
 else
     echo "Unsupported distribution. Please install packages manually."
     exit 1
@@ -66,12 +54,6 @@ if [ "$choice" = "Y" ] || [ "$choice" = "y" ] || [ -z "$choice" ]; then
         sudo pacman -S --noconfirm zsh
     elif command -v apt &>/dev/null; then
         sudo apt install -y zsh
-    elif command -v dnf &>/dev/null; then
-        sudo dnf install -y zsh
-    elif command -v zypper &>/dev/null; then
-        sudo zypper install -y zsh
-    elif command -v emerge &>/dev/null; then
-        sudo emerge -v zsh
     fi
     chsh -s "$(which zsh)"
 fi
