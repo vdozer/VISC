@@ -1,8 +1,8 @@
 <img src="visc.png" alt="logo" width="150px" height="150px"/>
 
 **Valentin's I3 Shell Script**  
-**Valentin's I3 Shell Script** made for beginners and for people who don't want to spend the rest of eternity configuring their system.
-If the website is down just download `visc.sh`.
+Made for beginners and for people who don't want to spend the rest of eternity configuring their system. Currently supports Arch and Debian/Debian-based distributions.
+**If the website is down just clone the repository and run `visc.sh`.**
 
 ### Full Tutorial: [vozer.xyz/visc](https://vozer.xyz/visc)
 
