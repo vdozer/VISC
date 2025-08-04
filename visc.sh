@@ -14,14 +14,14 @@ echo -e "\e[34m    :===     ==+.  -==+=+=-.   :-=+=+=-:  "
 echo -e "\e[1;37mValentin's I3 Shell Script\e[0m"
 
 # Detect distribution and install packages
-if command -v pacman &>/dev/null; then
+if command -v apt &>/dev/null; then
+    echo -e "\e[1;31mDetected Debian/Debian-based.\e[0m"
+    sudo apt update && sudo apt upgrade -y
+    sudo apt install -y i3 i3status dex xss-lock i3lock network-manager network-manager-gnome pulseaudio alsa-utils alacritty dmenu flameshot thunar picom feh fonts-dejavu-core
+elif command -v pacman &>/dev/null; then
     echo -e "\e[1;36mDetected Arch Linux.\e[0m"
     sudo pacman -Syu --noconfirm
     sudo pacman -S --noconfirm i3 i3status dex xss-lock i3lock networkmanager network-manager-applet pulseaudio alacritty dmenu flameshot thunar picom feh ttf-dejavu
-elif command -v apt &>/dev/null; then
-    echo -e "\e[1;31mDetected Debian/Debian-based.\e[0m"
-    sudo apt update && sudo apt upgrade -y
-    sudo apt install -y i3 i3status dex xss-lock i3lock network-manager network-manager-gnome pulseaudio-utils alacritty dmenu flameshot thunar picom feh fonts-dejavu-core
 else
     echo "Unsupported distribution. Please install packages manually."
     exit 1
@@ -45,17 +45,19 @@ cp ~/visc-temp/.xinitrc ~/
 rm -rf ~/visc-temp
 
 # Also make a picture folder for Flameshot. Screenshots will be stored here.
-mkdir Pictures
+mkdir -p ~/Pictures
 
 # Prompt to install zsh and set as default shell
 read -p $'\e[1;33mInstall zsh and set as default shell? (Y/n) \e[0m' choice
-if [ "$choice" = "Y" ] || [ "$choice" = "y" ] || [ -z "$choice" ]; then
-    if command -v pacman &>/dev/null; then
-        sudo pacman -S --noconfirm zsh
-    elif command -v apt &>/dev/null; then
+choice=${choice:-Y}  # Set default to Y if empty
+if [[ "$choice" =~ ^[Yy]$ ]]; then
+    if command -v apt &>/dev/null; then
         sudo apt install -y zsh
+    elif command -v pacman &>/dev/null; then
+        sudo pacman -S --noconfirm zsh
     fi
     chsh -s "$(which zsh)"
+    echo -e "\e[1;32mZsh installed and set as default shell. You may need to log out and back in for changes to take effect.\e[0m"
 fi
 
 echo -e "\e[1;32mSetup complete! Thank you for using VISC\e[0m"
