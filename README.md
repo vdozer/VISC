@@ -2,26 +2,25 @@
 
 **Valentin's I3 Shell Script**  
 Made for beginners and for people who don't want to spend the rest of eternity configuring their system. Currently supports Arch and Debian/Debian-based distributions.
-**If the website is down just clone the repository and run `visc.sh`.**
 
-### Full Tutorial: [vozer.xyz/visc](https://vozer.xyz/visc)
+### The full tutorial can be found [here](http://vdozer5fizon6citkrh6zq6ax3fkmi6f3f2siwnaj6wdnjrspl5q2kid.onion/VISC/index.html), it can only be accessed via Tor.
 
 ---
 
 ## **Installation Tutorial**
 
-1. **Download the Script**  
-   The script is lightweight (only about **3.3 KB**). Download it using the following command:
+1. **Clone the repository**  
+   The script is lightweight (only about **3.3 KB**). Clone the repository using the following command:
 
    ```bash
-   curl -LO https://vozer.xyz/visc/visc.sh
+   git clone "https://github.com/vdozer/VISC"
    ```
 
 2. **Run the Script**  
-   Execute the script with:
+   Enter it's directory and run it with:
 
    ```bash
-   sh visc.sh
+   cd VISC && sh visc.sh
    ```
 
    The script will guide you through the installation process.  
@@ -33,6 +32,4 @@ Made for beginners and for people who don't want to spend the rest of eternity c
 
 ---
 
-If you have any questions (or recommendations) mail me at **valentin.ozer@aol.com**.
-
-<sup><sub>Also the name isn't VISS  that sounds to similar to piss.</sub></sup>
+If you have any questions (or recommendations) mail me at **vdozer [at] tuta [dot] com**.
