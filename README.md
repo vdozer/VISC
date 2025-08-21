@@ -3,7 +3,7 @@
 **Valentin's I3 Shell Script**  
 Made for beginners and for people who don't want to spend the rest of eternity configuring their system. Currently supports Arch and Debian/Debian-based distributions.
 
-### The full tutorial can be found [here](http://vdozer5fizon6citkrh6zq6ax3fkmi6f3f2siwnaj6wdnjrspl5q2kid.onion/VISC/index.html), it can only be accessed via Tor.
+### The full tutorial can be found [here](https://vdozer.xyz/VISC/index.html).
 
 ---
 
